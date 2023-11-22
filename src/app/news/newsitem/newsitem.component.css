@@ -1,0 +1,22 @@
+.author-para {
+    margin-bottom: 0;
+
+}
+
+.primary-image {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.details {
+    padding-left: 10px;
+    display: inline-block;
+}
+
+.main-image {
+    width: 130px;
+    height: 130px;
+    padding-left: 0;
+    padding-top: 0;
+
+}

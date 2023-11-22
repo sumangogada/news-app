@@ -1,0 +1,15 @@
+<div class="mainDiv">
+    <!-- <h4>{{dailyNewsItem.author}}</h4>
+    <p>{{dailyNewsItem.title}}</p> -->
+    <div>
+        <div class="primary-image">
+            <img class="main-image" src="{{dailyNewsItem.image}}" alt="">
+        </div>
+        <div class="details">
+            <h4>{{dailyNewsItem.title}}</h4>
+            <a href="{{dailyNewsItem.url}}">{{dailyNewsItem.description}}...</a>
+            <p style="margin-bottom: 0;"> Category : {{dailyNewsItem.category[0]}}</p>
+            <p class="author-para" *ngIf="dailyNewsItem.author">Author By: {{dailyNewsItem.author}}</p>
+        </div>
+    </div>
+</div>
